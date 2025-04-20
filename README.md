@@ -41,4 +41,15 @@ __________________________________
 ## Testing
 
 You can test the API using **Postman**. A Postman collection has been included to simplify testing of all available endpoints.
+________________________________________________
+![image](https://github.com/user-attachments/assets/0e4bc076-9f6a-44c1-af81-3024f5b2a4b0)
+
+![image](https://github.com/user-attachments/assets/634a7eba-2e8a-40ce-8918-8b318611b75d)
+
+![image](https://github.com/user-attachments/assets/6d1b4851-e48a-4e02-8b03-4234981db82e)
+
+![image](https://github.com/user-attachments/assets/f09eb9a2-73a5-45a5-9841-4f17a398ddaf)
+
+
+
 
