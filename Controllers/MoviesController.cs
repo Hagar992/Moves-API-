@@ -1,7 +1,9 @@
-﻿using Moves_API_.Dtos;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Moves_API_.Dtos;
+using Moves_API_.Services;
 
 namespace Moves_API_.Controllers
 {
@@ -115,7 +117,7 @@ namespace Moves_API_.Controllers
             movie.Title = dto.Title;
             movie.GenreId = dto.GenreId;
             movie.Year = dto.Year;
-            movie.Storeline = dto.StoryLine;
+            movie.StoryLine = dto.StoryLine;
             movie.Rate = dto.Rate;
 
             _moviesService.Update(movie);
@@ -135,6 +137,5 @@ namespace Moves_API_.Controllers
 
             return Ok(movie);
         }
-
     }
 }
